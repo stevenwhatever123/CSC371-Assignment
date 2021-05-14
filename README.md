@@ -6,7 +6,7 @@ into cmake-build-debug in order to read data. Otherwise, it could not find the f
 # What is this coursework about?  
 This is my attempt on CSC371-Advanced Object Oriented Programming module Assignment. I develop a tool in C++ that can read CSV and JSON files, some of which have been downloaded from StatsWales website.  
 
-This tool read user arguments and will output a table based on the given arguments.  
+This tool reads user arguments and will output a table based on the given arguments.  
 
 I scored 78.5/100 overall.  
 
