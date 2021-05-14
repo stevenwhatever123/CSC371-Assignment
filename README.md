@@ -1,12 +1,12 @@
 Compiler: gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)
 
+I used Clion to do this assignment, I have to move the datasets folder
+into cmake-build-debug in order to read data. Otherwise, it could not find the files.
+
 # What is this coursework about?  
 This is my attempt on CSC371-Advanced Object Oriented Programming module Assignment. 
 I develop a tool in C++ that can read CSV and JSON files, some of which have been downloaded from StatsWales website.  
 This tool read user arguments and will output a table based on the given arguments.  
-
-I used Clion to do this assignment, I have to move the datasets folder
-into cmake-build-debug in order to read data. Otherwise, it could not find the files.
 
 For example:  
 If we request data from the popden datasets, for the areas W06000011 and W06000010, between 1990 and 1993, the command is:  
