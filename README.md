@@ -39,3 +39,47 @@ Population (pop)
          1991          1992          1993       Average      Diff.   %Diff. 
 229743.000000 229610.000000 229349.000000 229567.333333 -394.000000 -0.171496 
 ```
+
+If we request data from the popden and trains datasets, for the area W06000011, with the rail and pop measure, between 2015 and 2018, the command is:
+$ ./bin/bethyw -d popden,trains -a W06000011 -m rail,pop -y 2015-2018
+
+with the output:
+```
+Swansea / Abertawe (W06000011)
+Population (pop)
+         2015          2016          2017          2018       Average       Diff.   %Diff. 
+242316.000000 244462.000000 245480.000000 246466.000000 244681.000000 4150.000000 1.712640 
+
+Rail passenger journeys (rail)
+         2015          2016          2017          2018       Average        Diff.   %Diff. 
+910878.000000 914448.000000 921736.000000 927841.000000 918725.750000 16963.000000 1.862269 
+
+```
+
+There is also a JSON output. For example:
+$ ./bin/bethyw -d popden,trains -a W06000011 -m rail,pop -y 2015-2018 -j
+
+```
+{
+  "W06000011":{
+    "measures":{
+      "pop":{
+        "2015":242316.0,
+        "2016":244462.0,
+        "2017":245480.0,
+        "2018":246466.0
+      },
+      "rail":{
+        "2015":910878.0,
+        "2016":914448.0,
+        "2017":921736.0,
+        "2018":927841.0
+      }
+    },
+    "names":{
+      "cym":"Abertawe",
+      "eng":"Swansea"
+    }
+  }
+}
+```
