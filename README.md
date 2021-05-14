@@ -8,6 +8,8 @@ This is my attempt on CSC371-Advanced Object Oriented Programming module Assignm
 
 This tool read user arguments and will output a table based on the given arguments.  
 
+I scored 78.5/100 overall.  
+
 For example:  
 If we request data from the popden datasets, for the areas W06000011 and W06000010, between 1990 and 1993, the command is:  
 $ ./bin/bethyw -d popden -a W06000011, W06000010 -y 1990-1993  
