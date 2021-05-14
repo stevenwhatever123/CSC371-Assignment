@@ -12,7 +12,7 @@ If we request data from the popden datasets, for the areas W06000011 and W060000
 $ ./bin.bethyw -d popden -a W06000011, W06000010 -y 1990-1993  
 
 Where we would get the output:  
----
+```
 Carmarthenshire / Sir Gaerfyrddin (W06000010)
 Land area (area)
        1991        1992        1993     Average    Diff.   %Diff. 
@@ -38,4 +38,4 @@ Population density (dens)
 Population (pop)
          1991          1992          1993       Average      Diff.   %Diff. 
 229743.000000 229610.000000 229349.000000 229567.333333 -394.000000 -0.171496 
----
+```
