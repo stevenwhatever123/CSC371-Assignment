@@ -41,8 +41,8 @@ Population (pop)
 229743.000000 229610.000000 229349.000000 229567.333333 -394.000000 -0.171496 
 ```
 
-If we request data from the popden and trains datasets, for the area W06000011, with the rail and pop measure, between 2015 and 2018, the command is:
-$ ./bin/bethyw -d popden,trains -a W06000011 -m rail,pop -y 2015-2018
+If we request data from the popden and trains datasets, for the area W06000011, with the rail and pop measure, between 2015 and 2018, the command is:  
+$ ./bin/bethyw -d popden,trains -a W06000011 -m rail,pop -y 2015-2018  
 
 with the output:
 ```
