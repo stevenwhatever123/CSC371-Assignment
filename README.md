@@ -1,6 +1,6 @@
 Compiler: gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)
 
-#What is this coursework about?  
+# What is this coursework about?  
 This is my attempt on CSC371-Advanced Object Oriented Programming module Assignment. 
 I develop a tool in C++ that can read CSV and JSON files, some of which have been downloaded from StatsWales website.  
 This tool read user arguments and will output a table based on the given arguments.  
